@@ -1,0 +1,38 @@
+.sidebar:hover {
+    width: 260px;
+}
+
+.sidebar .logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px 15px;
+}
+
+.logo img {
+    width: 43px;
+    border-radius: 50%;
+}
+
+.logo h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+}
+
+.sidebar:hover .logo h2 {
+    display: block;
+}
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
